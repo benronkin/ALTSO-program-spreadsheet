@@ -1,0 +1,11 @@
+node_modules/**
+config/**
+workspace.code-workspace
+package.json
+package-lock.json
+.prettierrc
+.eslintrc.json
+package.json
+package-lock.json
+_app.js
+-app-file-ids.txt

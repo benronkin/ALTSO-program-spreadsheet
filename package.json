@@ -1,0 +1,22 @@
+{
+  "name": "gas-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Google Apps Script projects.",
+  "main": "Code.js",
+  "scripts": {
+    "install": "npm i @google/clasp @types/google-apps-script && npm i -D nodemon",
+    "dev": "node config/switchEnv dev && npx clasp push -w",
+    "test": "node config/switchEnv test && npx clasp push",
+    "prod": "node config/switchEnv prod && npx clasp push"
+  },
+  "keywords": [],
+  "author": "Ben Ronkin",
+  "license": "ISC",
+  "dependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
